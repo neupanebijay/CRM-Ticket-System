@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 } */
+.default-layout {
+  display: grid;
+  grid-template-rows: 5rem auto 3rem;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  height: 90vh;
+}
+footer {
+  grid-area: footer;
+  background: #444;
+  color: #fff;
+}
