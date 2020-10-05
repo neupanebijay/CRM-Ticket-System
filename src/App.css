@@ -47,14 +47,15 @@
 
 header {
   grid-area: header;
+  color: #fff;
 }
 
 main {
   grid-area: main;
-  height: 90vh;
+  min-height: 90vh;
 }
 footer {
   grid-area: footer;
-  background: #444;
+  background: #0275d8;
   color: #fff;
 }
