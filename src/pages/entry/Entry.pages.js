@@ -30,7 +30,7 @@ export const Entry = () => {
     // prevent default helps to stop the data(eg email ) disapper when page is refreshed.
     e.preventDefault();
 
-    if (!email || password.length < 8) {
+    if (!email) {
       return alert(
         "Please fill email propely and password should be of minimum 8 characters"
       );

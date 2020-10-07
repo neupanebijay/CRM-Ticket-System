@@ -33,6 +33,7 @@ export const LoginForm = ({
               <Form.Control
                 type="password"
                 name="password"
+                minLength="8"
                 value={pass}
                 onChange={handleOnChange}
                 placeholder="*******"

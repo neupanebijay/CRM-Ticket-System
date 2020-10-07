@@ -15,7 +15,7 @@ export const TicketTable = ({ tickets }) => {
       <tbody>
         {tickets.length ? (
           tickets.map((row) => (
-            // when looping items we need to provide unique identifier for the holding container
+            // when looping items we need to provide unique identifier for the holding container. In this case {row.id}
             <tr key={row.id}>
               <td>{row.id}</td>
               <td>{row.subject}</td>
