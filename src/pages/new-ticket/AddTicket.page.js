@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AddTicketForm } from "../../components/add-ticket-form/AddTicketForm.comp";
 import { BreadcrumbPage } from "../../components/breadcrumb/Breadcrumb.comp";
-import { shortText } from "../../assets/utility/validation";
+import { shortText, longText } from "../../assets/utility/validation";
 
 const initialFormData = {
   subject: "",
@@ -38,21 +38,20 @@ export const AddTicket = () => {
     e.preventDefault();
 
     const isSubjectValid = await shortText(formData.subject);
-    const isDetailsValid = await shortText(formData.details);
+    const isDetailsValid = await longText(formData.details);
 
     setFormDataError({
       ...initialFormDataErr,
       subject: !isSubjectValid,
-
       details: !isDetailsValid,
     });
 
     console.log(
-      "Form- submit request is received. Thank you! for your time.",
+      "Form submit request is received. Thank you! for your time.",
       formData
     );
   };
-
+  console.log(formData);
   return (
     <Container>
       <Row>

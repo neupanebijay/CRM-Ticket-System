@@ -1,26 +1,31 @@
 [
   {
     "id": 1,
+    "subject" : "Issue with SSL certificate",
     "status": "Client Response Pending",
     "addedAt": "20/09/2020"
   },
   {
     "id": 2,
+    "subject" : "SSL certificate update error",
     "status": "Client Response Pending",
     "addedAt": "20/09/2020"
   },
   {
     "id": 3,
+    "subject" : "Web application down",
     "status": "Client Response Pending",
     "addedAt": "20/09/2020"
   },
   {
     "id": 4,
+    "subject" : "Server down everytime",
     "status": "Client Response Pending",
     "addedAt": "20/09/2020"
   },
   {
     "id": 5,
+    "subject" : "Issue with framework",
     "status": "Client Response Pending",
     "addedAt": "20/09/2020"
   }
