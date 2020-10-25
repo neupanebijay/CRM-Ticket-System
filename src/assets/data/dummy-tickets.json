@@ -3,7 +3,24 @@
     "id": 1,
     "subject" : "Issue with SSL certificate",
     "status": "Client Response Pending",
-    "addedAt": "20/09/2020"
+    "addedAt": "20/09/2020",
+    "history":[
+      {
+        "date": "20-10-2020",
+        "messageBy":"Client",
+        "message":"hello there"
+      },
+      {
+        "date": "20-10-2020",
+        "messageBy":"Operator",
+        "message":"hi there"
+      },
+      {
+        "date": "20-10-2020",
+        "messageBy":"Client",
+        "message":"hello"
+      }
+    ]
   },
   {
     "id": 2,
